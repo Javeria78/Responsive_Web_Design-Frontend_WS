@@ -1,0 +1,1 @@
+A simple project of FAQ's build with html and css 
