@@ -52,6 +52,11 @@ justify-content: center;
 width: 550px;
 border-width: 1px;
  }
+ a
+ {
+  text-decoration-line: none;
+ }
+ 
 
 
 
