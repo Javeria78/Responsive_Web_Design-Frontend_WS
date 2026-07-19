@@ -1,0 +1,115 @@
+/* div{
+
+    display: flexbox;
+    justify-content: center;
+} */
+hr
+{
+    width: 345px;
+    border-color: rgb(253 251 252 / 17%);
+    border-width: 2px;
+    /* border-color: rgb(253, 251, 252); */
+    /* border-color: rgb(224, 217, 218,0.774); */
+    /* border-color: #FFFFFF; */
+    border-style:outset;
+
+}
+ body
+ {
+    /* box-shadow: 8px 8px 20px 0px rgba(85,85,85,0.08); */
+    margin: 164px;
+    font-weight: 400;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style:regular;
+
+ }
+   /* body
+ {
+    display: flex;
+    justify-content: center;
+ } */
+  div
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* box-shadow: 8px 8px 20px 0px rgba(85,85,85,0.08); */
+ } 
+  
+ /* .div
+ {
+    margin-left: 250px;
+    margin-right: 200px;
+ } */
+img{
+    margin: 16px;
+    border-style: hidden;
+    border-radius: 7px;
+}
+
+.sect{
+   height: 150px;
+   width: 336px;
+   padding-left: 16px;
+   padding-right: 16px;
+   padding-bottom: 20px;
+   /* box-shadow: 8px 8px 20px 0px rgba(85,85,85,0.08); */
+}
+/* .sect{
+    display: flex;
+    justify-content: center;
+} */
+figcaption
+{
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 16px;
+    /* border-width: 2px;
+    border-color: aqua; */
+    width: 40px;
+    color:rgb(128, 41, 209);
+    font-size: 10px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color:  #fafaf9;
+   
+    /* #E5EAF0; */
+}
+article{
+      box-shadow: 8px 8px 20px 0px rgba(85,85,85,0.08);
+}
+
+#list
+{
+    margin-bottom: 6px;
+    font-size: 18px;
+    color: #20293A;
+/* font-style: oblique; */
+}
+#list01
+{
+    width: 310px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    font-size: 14px;
+         color: #394150B5;
+    /* color: #394150; */
+/* font-style: oblique; */
+}
+footer
+{
+    /* color: #20293A; */
+    color: #20293Ac7;
+    font-size: 12px;
+    margin-top: 20px;
+}
+figure{
+    margin: 0px;  
+}
