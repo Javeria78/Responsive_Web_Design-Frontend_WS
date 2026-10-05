@@ -38,6 +38,16 @@ h1
     color: #E5E7EB;
     margin-bottom: 15px;
     line-height: 3.4rem;
+
+    width: 450px;
+    align-content: center;
+    text-align: center;
+     /* font-family: "Poppins", sans-serif; */
+       font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  /* font-size: 40px; */
+  font-size: 2.5rem;
 }
 /* img
 {
@@ -86,6 +96,7 @@ article
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
 }
 .Art
 {
@@ -115,7 +126,9 @@ background_image.svg
 .first
 {
     margin-bottom: 0px;
-      font-family: "Sora", sans-serif;
+    margin-top: 15px;
+      font-family: "Outfit", sans-serif;
+      /* font-family: "Sora", sans-serif; */
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -131,7 +144,8 @@ background_image.svg
     text-align: left;
     /* padding: 5px; */
     
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+   font-family: "Outfit", sans-serif;;
   font-weight: 400;
   font-style: normal;
    font-size: 1rem;
@@ -144,8 +158,8 @@ background_image.svg
     /* width: 330px;
     height: 230px; */
     width: 267px;
+     height: 185px;
     /* height: 167px; */
-    height: 175px;
     border-style: hidden;
     border-radius: 15px;
     margin: 0px;
@@ -182,7 +196,7 @@ section div{
 
 .one
 {
-    background-color: #FCEED8;
+       background-color: #FCEED8;
      /* background-color: #fffab8; */
 }
 .two
