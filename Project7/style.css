@@ -144,7 +144,8 @@ background_image.svg
     /* width: 330px;
     height: 230px; */
     width: 267px;
-    height: 167px;
+    /* height: 167px; */
+    height: 175px;
     border-style: hidden;
     border-radius: 15px;
     margin: 0px;
@@ -181,8 +182,8 @@ section div{
 
 .one
 {
-    /* background-color: #FCEED8; */
-     background-color: #fffab8;
+    background-color: #FCEED8;
+     /* background-color: #fffab8; */
 }
 .two
 {
