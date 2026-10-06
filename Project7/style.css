@@ -166,7 +166,9 @@ height: 100%;
     border-style: hidden;
     border-radius: 15px;
     /* aspect-ratio: 7/5; */
-    aspect-ratio: 9/7;
+    /* aspect-ratio: 9/7; */
+
+    aspect-ratio: 4/3;
     margin: 0px;
    
    
