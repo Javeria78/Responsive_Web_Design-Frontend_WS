@@ -159,8 +159,9 @@ background_image.svg
    /* width: 330px;
     height: 230px; */
     /* width: 267px; */
-height: 100%;
-    /* height: auto; */
+   width: 100%;
+/* height: 100%; */
+    height: auto;
      /* height: 185px; */
     /* height: 167px; */
     border-style: hidden;
