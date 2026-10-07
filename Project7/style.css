@@ -171,6 +171,7 @@ background_image.svg
     /* aspect-ratio: 9/7; 87% match */
 
     aspect-ratio: 4/3;
+   object-fit: contain;
     margin: 0px;
    
    
