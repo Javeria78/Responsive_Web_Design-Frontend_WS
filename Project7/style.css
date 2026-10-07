@@ -28,15 +28,16 @@ body
    font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
-   
+  /* font-family: "Poppins", sans-serif; */
+   font-family: "Outfit", sans-serif;
 }
 
 h1
 {
     /* color: #E5E7EB; */
     color: #E5E7EB;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+     margin-bottom: 10px;
     line-height: 3.4rem;
 
     width: 450px;
