@@ -159,8 +159,8 @@ background_image.svg
 
    /* width: 330px;
     height: 230px; */
-    /* width: 267px; */
-   width: 100%;
+    width: 267px;
+   /* width: 100%; */
 /* height: 100%; */
     height: auto;
      /* height: 185px; */
@@ -172,7 +172,7 @@ background_image.svg
     /* aspect-ratio: 9/7; 87% match */
 
     aspect-ratio: 4/3;
-   object-fit: contain;
+   /* object-fit: contain; */
     margin: 0px;
    
    
