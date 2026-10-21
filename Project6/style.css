@@ -1,0 +1,187 @@
+body {
+    /* display: flexbox; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+    /* font-size: 1rem; */
+    /* font-size: 1rem; */
+}
+
+.division {
+    /* display:flexbox; */
+    display: flex;
+    justify-content: center;
+    margin-top: 134px;
+    /* position: relative; */
+
+}
+
+
+.firstImg {
+    border-radius: 10px;
+    /* width: 418px; */
+    width: 470px;
+    /* width: auto; */
+    /* aspect-ratio: 16/9; */
+    /* aspect-ratio: 8/5; */
+    /* aspect-ratio: 8/5; */
+        aspect-ratio: 10/6;
+}
+
+.secImg {
+    /* there are 2 methods to use for positioning 
+1. with position as relative*/
+    /* position:relative;
+    bottom: 63px; */
+
+    /* 2. using the parent container position
+ and setting current container position to absolute
+ Here the container position as absolute is wrt to parent contaiber's position that is first div container with class DIVISION*/
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 217px; */
+      top: 213px;
+    /* width: 100%;
+    aspect-ratio: 8/5; */
+    /* border-style: dashed; */
+
+
+
+}
+
+article {
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center; */
+    /* margin-top: 134px; */
+
+
+    border-radius: 20px;
+   
+   /* border-style: dotted; */
+        border-style: hidden;
+            position: relative;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 418px; */
+
+    /* border-style: dashed;
+    border-color: aqua; */
+    width: min-content;
+}
+
+.sect {
+    /* width: 418px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 0px 32px 0px 32px; */
+     padding: 0px 35px 0px 35px;
+}
+
+.firstSect {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    margin-bottom: 12px;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* font-size: 1.5rem; */
+    font-size: 24px; 
+    color: #111729;
+     /* font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal; */
+
+}
+
+.para1 {
+    margin: 0px 0px 24px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 1rem; */
+    font-size: 1rem;
+    color: #4A5567;
+    align-content: flex-end;
+}
+
+.para2 {
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* font-size: 1rem; */
+    font-size: 1rem;
+    color: #111729;
+}
+
+footer {
+    margin: 24px 0px 24px 0px;
+    padding: 0px 35px 0px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    /* width: 352px; */
+    width: stretch;
+
+}
+
+figure {
+    margin: 0px;
+}
+
+.third {
+    margin-left: 13px;
+    max-height: 58px;
+
+}
+
+
+
+.para3{
+     font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 1rem; */
+    font-size: 1rem;
+    color: #4A5567;
+    margin: 0px;
+}
+
+hr{
+    margin: 0px;
+    /* border-color: #F2F5F9; */
+    /* background-color: #F2F5F9 ; */
+    color: #F2F5F9;
+    /* border-style: hidden; */
+    /* width: 418px; */
+    width: 100%;
+    /* border-radius: 30px; */
+    border-style: dotted;
+   
+}
+#AVimg
+{
+    border-style: double;
+    border-color: #F2F5F9;
+    border-radius: 40px;
+    width: 35px;
+    height: 35px;
+   
+    
+}
