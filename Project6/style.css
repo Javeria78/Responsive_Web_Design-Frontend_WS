@@ -14,21 +14,24 @@ body {
     /* display:flexbox; */
     display: flex;
     justify-content: center;
-    margin-top: 134px;
+    /* margin-top: 134px; */
+        margin-top: 164px;
     /* position: relative; */
 
 }
 
 
 .firstImg {
-    border-radius: 10px;
+    border-radius: 15px;
     /* width: 418px; */
-    width: 470px;
+    /* width: 461px; */
     /* width: auto; */
     /* aspect-ratio: 16/9; */
     /* aspect-ratio: 8/5; */
     /* aspect-ratio: 8/5; */
         aspect-ratio: 10/6;
+          width: 461px;
+          /* width: auto; */
 }
 
 .secImg {
@@ -83,8 +86,9 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding: 0px 32px 0px 32px; */
-     padding: 0px 35px 0px 35px;
+    padding: 0px 32px 0px 32px;
+     /* padding: 0px 35px 0px 35px; */
+     box-sizing: border-box;
 }
 
 .firstSect {
