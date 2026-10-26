@@ -1,3 +1,4 @@
+/*STYLE01.cSS*/
 body {
     /* display: flexbox; */
     display: flex;
@@ -99,8 +100,8 @@ article {
 }
 
 h1 {
-        margin: 0px 0px 12px 0px;
-    /* margin-bottom: 12px; */
+    margin-bottom: 12px;
+    
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
