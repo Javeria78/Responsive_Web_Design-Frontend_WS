@@ -1,0 +1,201 @@
+body
+{
+    margin: 50px;
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+.first
+{
+/* background-color:#FFFEFE;
+#eddede */
+background-color:#eddede;
+
+display: flex;
+justify-content: center;
+width: 1150px;
+height: 650px;
+ /* background-image: url(Background_decor@2x.png); */
+}
+
+.secDiv
+{
+        
+  /* display: flex; */
+   background-color: #F3F4F6;
+    width: 1050px;
+     /* padding: 20px; */
+       /* background-image: url(Background_decor@2x.png); */
+        margin: 50px;
+        display: grid;
+        /* grid-template-columns: 240px 240px 240px 240px ; */
+        /* grid-template-rows: 250px 250px; */
+        /* grid-template-rows: repeat(2,1fr);  */
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        /* gap: 1rem; */
+        /* grid-template-areas:
+        "Div01 Div01 Div02 Div03"
+        "Div01 Div04 " ; */
+        /* grid-template-areas: "Div01 Div01 Div02 Div03"
+        "Div04 Div05 Div06 Div07"; */
+         grid-template-areas: "Div01 Div01 Div02 Div03"
+        "Div04 Div05 Div06 Div07";
+            /* grid-template-columns: 220px; */
+            border-style: hidden;
+            border-radius: 30px;
+             background-image: url(Background_decor@2x.png);
+    background-repeat: no-repeat;
+     z-index: 0;
+
+            
+}
+.second
+{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+p{
+    margin-top: 5px;
+}
+.InsDiv
+{
+   /* width: 260px; */
+ /* height: 220px; */
+     display: flex;
+    justify-content: center;
+    align-items: end;
+
+} 
+
+.ImageStyle
+{
+ /* width: 220px; */
+ height: 250px;
+}
+
+.InsideDiv
+{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    
+
+        grid-row: 1 / 3;
+     grid-column: 1 / 3;
+    background-repeat: no-repeat;
+     /* background-size: cover; */
+   /* background-position: center; */
+    /* background-image: url("Background_decor@2x.png"); */
+     /* z-index: 0; */
+
+}
+.col2
+{
+  background-color: #C1B6F8;
+  position: relative;
+  
+}
+.col3
+{
+  background-color: #EDACD2;
+  /* background-color: #86E7D4; */
+  background-image: url("person_2@2x.png");
+      display: flex;
+    flex-direction: column;
+    position: relative;
+    /* border-radius: 30px; */
+    border-top-right-radius: 30px;
+  
+  
+}
+.col4
+{
+      display: flex;
+    justify-content: flex-start;
+    /* padding: 20px; */
+    padding: 20px 20px 30px 20px;
+    /* background-color: #C1B6F8;
+   background-image: url("person_1@2x.png"); */
+}
+.col5
+{
+  background-color: #9DC4F8;
+  background-image: url(person_3@2x.png);
+      display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.col6
+{
+  background-color: #F8D8B0;
+  background-image: url(person_4@2x.png);
+      display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.col7
+{
+  background-color: #86E7D4;
+  background-image: url(person_5@2x.png);
+      display: flex;
+    flex-direction: column;
+    position: relative;
+    border-bottom-right-radius: 30px;
+}
+
+.col2div1
+{
+display: flex;
+flex-direction: column;
+position: absolute;
+left: 30px;
+color: #FFFEFE;
+line-height: 0px;
+bottom: 5px;
+}
+.label{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;
+}
+.Btext
+{
+   font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+}
+.para1{
+   font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #263FA9;
+}
+/* .para2
+{
+  width: 200px;
+} */
+h1{
+   font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0px 0px 16px 0px;
+}
+.InsideDiv01
+{
+background-image: url(Background_decor@2x.png);
+background-size: 222px 404px; 
+}
