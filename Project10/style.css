@@ -122,10 +122,14 @@ p{
    linear-gradient(180deg,
   rgba(193, 182, 248, 1) 0%,
   rgba(0, 0, 0, 0.4) 100% ); */
-  background-image:
+   background-image:
      linear-gradient(180deg,
   rgba(237, 172, 210, 0.1) 60%,
-  rgba(0, 0, 0, 0.3) 100% ),url("person_2@2x.png");
+  rgba(0, 0, 0, 0.7) 100% ),url("person_2@2x.png");
+  /* background-image:
+     linear-gradient(180deg,
+  rgba(237, 172, 210, 0.1) 65%,
+  rgba(0, 0, 0, 0.5) 100% ),url("person_2@2x.png"); */
   /*css uses gradient as images so we must use linear gradient along with bg image,
    because we have image as well as bg colour used for bg, because of thisitself
    earlier when we use the gradient on bg-color it didnt work.
@@ -154,9 +158,8 @@ p{
 
   linear-gradient(180deg,
   rgba(157, 196, 248, 0.1) 60%,
-  rgba(0, 0, 0, 0.4) 100% ),
-    url(person_3@2x.png)   
-  ;
+  rgba(0, 0, 0, 0.7) 100% ),
+    url(person_3@2x.png);
       display: flex;
     flex-direction: column;
     position: relative;
@@ -173,7 +176,7 @@ p{
  ; */
     linear-gradient(180deg,
   rgba(248, 216, 176, 0.1) 60%,
-  rgba(0, 0, 0, 0.4) 100% ), 
+  rgba(0, 0, 0, 0.7) 100% ), 
   url(person_4@2x.png)
  ;
       display: flex;
@@ -188,7 +191,7 @@ p{
   
    linear-gradient(180deg,
   rgba(134, 231, 212, 0.1) 60%,
-  rgba(0, 0, 0, 0.4) 100% ),
+  rgba(0, 0, 0, 0.7) 100% ),
   url(person_5@2x.png);
       display: flex;
     flex-direction: column;
