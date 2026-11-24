@@ -19,7 +19,8 @@ body
 
 display: flex;
 justify-content: center;
-width: 1150px;
+/* width: 1150px; */
+width: 1250px;
 height: 650px;
  /* background-image: url(Background_decor@2x.png); */
 }
@@ -29,10 +30,12 @@ height: 650px;
         
   /* display: flex; */
    background-color: #F3F4F6;
-    width: 1050px;
+    /* width: 1050px; */
+    width: 1150px;
      /* padding: 20px; */
        /* background-image: url(Background_decor@2x.png); */
-        margin: 50px;
+         /* margin: 50px; */
+        margin: 40px;
         display: grid;
         /* grid-template-columns: 240px 240px 240px 240px ; */
         /* grid-template-rows: 250px 250px; */
@@ -77,7 +80,8 @@ p{
 .ImageStyle
 {
  /* width: 220px; */
- height: 250px;
+ height: 288px;
+ /* width: 270px; */
 }
 
 .InsideDiv
@@ -100,19 +104,37 @@ p{
 }
 .col2
 {
-  background-color: #C1B6F8;
+  /* background-color: #C1B6F8; */
+  
   position: relative;
+ background: linear-gradient(
+  180deg,
+  rgba(193, 182, 248, 1) 0%,
+  rgba(0, 0, 0, 0.4) 100%
+);
   
 }
 .col3
 {
   background-color: #EDACD2;
-  /* background-color: #86E7D4; */
-  background-image: url("person_2@2x.png");
+  /* Linear Background */
+  /* background-color:  
+   linear-gradient(180deg,
+  rgba(193, 182, 248, 1) 0%,
+  rgba(0, 0, 0, 0.4) 100% ); */
+  background-image:
+     linear-gradient(180deg,
+  rgba(237, 172, 210, 0.1) 60%,
+  rgba(0, 0, 0, 0.3) 100% ),url("person_2@2x.png");
+  /*css uses gradient as images so we must use linear gradient along with bg image,
+   because we have image as well as bg colour used for bg, because of thisitself
+   earlier when we use the gradient on bg-color it didnt work.
+   If we use the gradient first and append it with bg image, then our image
+   would appear faded, so we must first use image and then linear grad on the bg color.
+  */
       display: flex;
     flex-direction: column;
     position: relative;
-    /* border-radius: 30px; */
     border-top-right-radius: 30px;
   
   
@@ -123,13 +145,18 @@ p{
     justify-content: flex-start;
     /* padding: 20px; */
     padding: 20px 20px 30px 20px;
-    /* background-color: #C1B6F8;
-   background-image: url("person_1@2x.png"); */
 }
 .col5
 {
   background-color: #9DC4F8;
-  background-image: url(person_3@2x.png);
+ 
+  background-image: 
+
+  linear-gradient(180deg,
+  rgba(157, 196, 248, 0.1) 60%,
+  rgba(0, 0, 0, 0.4) 100% ),
+    url(person_3@2x.png)   
+  ;
       display: flex;
     flex-direction: column;
     position: relative;
@@ -137,7 +164,18 @@ p{
 .col6
 {
   background-color: #F8D8B0;
-  background-image: url(person_4@2x.png);
+ 
+  background-image: 
+   /* url(person_4@2x.png),
+    linear-gradient(180deg,
+  rgba(248, 216, 176, 0.5) 40%,
+  rgba(0, 0, 0, 0.5) 100% )
+ ; */
+    linear-gradient(180deg,
+  rgba(248, 216, 176, 0.1) 60%,
+  rgba(0, 0, 0, 0.4) 100% ), 
+  url(person_4@2x.png)
+ ;
       display: flex;
     flex-direction: column;
     position: relative;
@@ -146,7 +184,12 @@ p{
 .col7
 {
   background-color: #86E7D4;
-  background-image: url(person_5@2x.png);
+  background-image: 
+  
+   linear-gradient(180deg,
+  rgba(134, 231, 212, 0.1) 60%,
+  rgba(0, 0, 0, 0.4) 100% ),
+  url(person_5@2x.png);
       display: flex;
     flex-direction: column;
     position: relative;
@@ -158,12 +201,14 @@ p{
 display: flex;
 flex-direction: column;
 position: absolute;
-left: 30px;
+left: 25px;
 color: #FFFEFE;
 line-height: 0px;
-bottom: 5px;
+bottom: 10px;
 }
 .label{
+  display: flex;
+  align-items: center;
     font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
